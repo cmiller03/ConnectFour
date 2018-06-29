@@ -1,0 +1,40 @@
+.disk {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 2px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 62px;
+    height: 382px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid black;
+
+}
+
+.row2 {
+    width: 446px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+}
+
+body {
+    position: relative;
+}
